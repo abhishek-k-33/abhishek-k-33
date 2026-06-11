@@ -6,7 +6,6 @@ I design and build creative websites.
 
 My main tech stack is JavaScript, Java, Python, CSS, and Node.js.
 
-I've got a bunch of pinned projects, but my favorite is the [Project Name](#).
 
 **Fun Facts:**
 
