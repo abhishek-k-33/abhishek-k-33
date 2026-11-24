@@ -1,62 +1,164 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
-<title id="t">Abhishek — creative web developer</title>
-<desc id="d">I design and build websites that feel crafted. CSE student in India, web development and AIML.</desc>
+<title id="t">Abhishek: code, chess and cats</title>
+<desc id="d">A desk scene: a laptop typing out "loves: code, chess, cats", a mug of coffee, and an orange cat knocking a knight off a chessboard.</desc>
 <style>
-  .float{animation:float 6s ease-in-out infinite;transform-box:fill-box}
-  .float2{animation:float 7.5s ease-in-out -2s infinite;transform-box:fill-box}
-  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-  .drift{animation:drift 14s ease-in-out infinite;transform-box:fill-box}
-  @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-30px,18px)}}
-  .grow{animation:grow 4s ease-in-out infinite;transform-origin:left;transform-box:fill-box}
-  .grow.d1{animation-delay:-1s}.grow.d2{animation-delay:-2s}.grow.d3{animation-delay:-3s}
-  @keyframes grow{0%,100%{transform:scaleX(.35)}50%{transform:scaleX(1)}}
   .caret{animation:blink 1.1s steps(1) infinite}
   @keyframes blink{50%{opacity:0}}
-  .cursor{animation:cursor 8s ease-in-out infinite}
-  @keyframes cursor{0%,100%{transform:translate(0,0)}25%{transform:translate(-150px,-40px)}
-    50%{transform:translate(-60px,50px)}75%{transform:translate(70px,-10px)}}
-  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  .type{transform-box:fill-box;transform-origin:right;animation:type 9s steps(14) infinite}
+  .l2{animation-name:type2}.l3{animation-name:type3}.l4{animation-name:type4}
+  @keyframes type {0%{transform:scaleX(1)}8%,92%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+  @keyframes type2{0%,8%{transform:scaleX(1)}26%,92%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+  @keyframes type3{0%,26%{transform:scaleX(1)}38%,92%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+  @keyframes type4{0%,38%{transform:scaleX(1)}42%,92%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+  .steam{animation:steam 3s ease-in-out infinite;opacity:0}
+  .steam.s2{animation-delay:-1.5s}
+  @keyframes steam{0%{transform:translateY(6px);opacity:0}40%{opacity:.7}100%{transform:translateY(-14px);opacity:0}}
+  .tail{transform-origin:1094px 252px;animation:tail 2.6s ease-in-out infinite}
+  @keyframes tail{0%,100%{transform:rotate(0)}50%{transform:rotate(-14deg)}}
+  .blink{transform-box:fill-box;transform-origin:center;animation:eyes 5s infinite}
+  @keyframes eyes{0%,94%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+  .paw{animation:paw 6s ease-in-out infinite}
+  @keyframes paw{0%,38%,62%,100%{transform:translate(0,0)}46%,52%{transform:translate(-22px,4px)}}
+  .knight{transform-box:fill-box;transform-origin:bottom center;animation:knight 6s ease-in-out infinite}
+  @keyframes knight{0%,46%,90%,100%{transform:translate(0,0) rotate(0)}
+    52%{transform:translate(-10px,-16px) rotate(-30deg)}60%,82%{transform:translate(-18px,0) rotate(-90deg)}}
+  .oops{animation:oops 6s ease-in-out infinite;opacity:0}
+  @keyframes oops{0%,48%,70%,100%{opacity:0}52%,66%{opacity:1}}
+  .twinkle{animation:twinkle 3s ease-in-out infinite}
+  .twinkle.t2{animation-delay:-1s}.twinkle.t3{animation-delay:-2s}
+  @keyframes twinkle{0%,100%{opacity:.25}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}.type{transform:scaleX(0)}.steam{opacity:.6}}
 </style>
-<defs>
-  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#d8dee4"/></pattern>
-  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#db2777"/><stop offset="1" stop-color="#d97706"/></linearGradient>
-  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
-  <clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="22"/></clipPath>
-</defs>
+<defs><clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="22"/></clipPath></defs>
 <g clip-path="url(#frame)">
-  <rect width="1200" height="340" fill="#f6f8fa"/>
-  <rect width="1200" height="340" fill="url(#dots)"/>
-  <g filter="url(#blur)" opacity="0.16">
-    <circle class="drift" cx="980" cy="70" r="120" fill="#7c3aed"/>
-    <circle class="drift" style="animation-delay:-7s" cx="760" cy="300" r="110" fill="#db2777"/>
-    <circle class="drift" style="animation-delay:-3s" cx="1150" cy="300" r="90" fill="#d97706"/>
+  <rect width="1200" height="340" fill="#fbf6ee"/>
+  <rect x="876" y="40" width="92" height="84" rx="8" fill="#cfe6ea" stroke="#d6bd96" stroke-width="5"/>
+  <circle cx="934" cy="72" r="15" fill="#e0a93b"/>
+  <rect x="886" y="96" width="34" height="10" rx="5" fill="#ffffff" opacity=".9"/>
+  <rect x="896" y="90" width="18" height="10" rx="5" fill="#ffffff" opacity=".9"/>
+  <line x1="922" y1="40" x2="922" y2="124" stroke="#d6bd96" stroke-width="4"/>
+  <line x1="876" y1="82" x2="968" y2="82" stroke="#d6bd96" stroke-width="4"/>
+  <rect x="590" y="300" width="16" height="44" fill="#d6bd96"/>
+  <rect x="548" y="296" width="680" height="18" rx="9" fill="#e8d5b7"/>
+  <rect x="548" y="309" width="680" height="5" fill="#d6bd96"/>
+</g>
+<rect x="1" y="1" width="1198" height="338" rx="22" fill="none" stroke="#e6dccb" stroke-width="1.5"/>
+
+<text x="64" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#6b6f80">&gt; hello, world. i'm<tspan class="caret" fill="#e07a5f"> ▍</tspan></text>
+<text x="60" y="172" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="#2f3142">Abhishek<tspan fill="#e07a5f">.</tspan></text>
+<path d="M66 190 q40 -10 80 0 t80 0 t80 0" fill="none" stroke="#5f9a7e" stroke-width="5" stroke-linecap="round"/>
+<text x="64" y="232" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#2f3142">I design &amp; build websites that feel <tspan font-style="italic" fill="#e07a5f">crafted</tspan>.</text>
+<text x="64" y="270" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#6b6f80">CSE student  ·  India  ·  web dev + AIML</text>
+<text x="64" y="300" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-style="italic" fill="#6b6f80">powered by code, chess &amp; one very opinionated cat</text>
+
+<g>
+  <g transform="translate(-24 0)">
+  <rect x="608" y="146" width="256" height="140" rx="10" fill="#3d405b"/>
+  <rect x="618" y="156" width="236" height="118" rx="4" fill="#262838"/>
+  <text x="630" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" xml:space="preserve"><tspan fill="#e07a5f">const</tspan><tspan fill="#f4efe6"> me = {</tspan></text>
+  <rect class="type l1" x="628" y="167" width="96" height="15" fill="#262838"/>
+  <text x="630" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" xml:space="preserve"><tspan fill="#f4efe6">  loves: [</tspan><tspan fill="#5f9a7e">"code"</tspan><tspan fill="#f4efe6">,</tspan><tspan fill="#5f9a7e">"chess"</tspan><tspan fill="#f4efe6">,</tspan><tspan fill="#5f9a7e">"cats"</tspan><tspan fill="#f4efe6">],</tspan></text>
+  <rect class="type l2" x="628" y="187" width="218" height="15" fill="#262838"/>
+  <text x="630" y="218" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" xml:space="preserve"><tspan fill="#f4efe6">  fuel: </tspan><tspan fill="#e0a93b">"coffee"</tspan><tspan fill="#f4efe6">,</tspan></text>
+  <rect class="type l3" x="628" y="207" width="120" height="15" fill="#262838"/>
+  <text x="630" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" xml:space="preserve"><tspan fill="#f4efe6">};</tspan></text>
+  <rect class="type l4" x="628" y="227" width="16" height="15" fill="#262838"/>
+  <text x="630" y="262" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" fill="#8a8ea3">// TODO: feed the cat<tspan class="caret" fill="#e07a5f">▍</tspan></text>
+  <path d="M594 286 H878 L870 296 H602 Z" fill="#3d405b"/>
+  <rect x="712" y="286" width="48" height="4" rx="2" fill="#262838"/>
+  <path class="steam" d="M898 236 q-6 -8 0 -16 q6 -8 0 -16" fill="none" stroke="#6b6f80" stroke-width="2.5" stroke-linecap="round"/>
+  <path class="steam s2" d="M910 236 q-6 -8 0 -16 q6 -8 0 -16" fill="none" stroke="#6b6f80" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M920 252 h6 a10 10 0 0 1 0 22 h-6" fill="none" stroke="#81b29a" stroke-width="5"/>
+  <rect x="888" y="244" width="34" height="46" rx="6" fill="#81b29a"/>
+  <rect x="888" y="256" width="34" height="6" fill="#2f3142" opacity=".12"/>
   </g>
+  <path class="tail" d="M1094 252 C1140 254 1152 214 1132 186" fill="none" stroke="#e8a35c" stroke-width="11" stroke-linecap="round"/>
+  <ellipse cx="1060" cy="222" rx="38" ry="46" fill="#e8a35c"/>
+  <path d="M1038 206 q8 4 16 0 M1036 222 q10 5 20 0" fill="none" stroke="#c47a37" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="1066" cy="236" rx="16" ry="22" fill="#f8dcb8"/>
+  <path d="M1036 146 L1030 110 L1056 132 Z" fill="#e8a35c"/>
+  <path d="M1084 146 L1090 110 L1064 132 Z" fill="#e8a35c"/>
+  <path d="M1037 140 L1034 120 L1049 133 Z" fill="#e07a5f" opacity=".7"/>
+  <path d="M1083 140 L1086 120 L1071 133 Z" fill="#e07a5f" opacity=".7"/>
+  <circle cx="1060" cy="160" r="31" fill="#e8a35c"/>
+  <path d="M1052 133 v9 M1060 131 v10 M1068 133 v9" stroke="#c47a37" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse class="blink" cx="1049" cy="160" rx="4" ry="5.5" fill="#2f3142"/>
+  <ellipse class="blink" cx="1071" cy="160" rx="4" ry="5.5" fill="#2f3142"/>
+  <path d="M1056 170 h8 l-4 5 z" fill="#e07a5f"/>
+  <path d="M1060 175 q-4 5 -9 3 M1060 175 q4 5 9 3" fill="none" stroke="#2f3142" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M1040 170 h-20 M1040 175 l-18 4 M1080 170 h20 M1080 175 l18 4" stroke="#2f3142" stroke-width="1.3" stroke-linecap="round" opacity=".6"/>
+  <polygon points="936.0,262.0 957.2,262.0 955.6,265.5 933.8,265.5" fill="#f3e3c3"/>
+  <polygon points="957.2,262.0 978.5,262.0 977.4,265.5 955.6,265.5" fill="#b98a60"/>
+  <polygon points="978.5,262.0 999.8,262.0 999.2,265.5 977.4,265.5" fill="#f3e3c3"/>
+  <polygon points="999.8,262.0 1021.0,262.0 1021.0,265.5 999.2,265.5" fill="#b98a60"/>
+  <polygon points="1021.0,262.0 1042.2,262.0 1042.8,265.5 1021.0,265.5" fill="#f3e3c3"/>
+  <polygon points="1042.2,262.0 1063.5,262.0 1064.6,265.5 1042.8,265.5" fill="#b98a60"/>
+  <polygon points="1063.5,262.0 1084.8,262.0 1086.4,265.5 1064.6,265.5" fill="#f3e3c3"/>
+  <polygon points="1084.8,262.0 1106.0,262.0 1108.2,265.5 1086.4,265.5" fill="#b98a60"/>
+  <polygon points="933.8,265.5 955.6,265.5 953.9,269.0 931.5,269.0" fill="#b98a60"/>
+  <polygon points="955.6,265.5 977.4,265.5 976.2,269.0 953.9,269.0" fill="#f3e3c3"/>
+  <polygon points="977.4,265.5 999.2,265.5 998.6,269.0 976.2,269.0" fill="#b98a60"/>
+  <polygon points="999.2,265.5 1021.0,265.5 1021.0,269.0 998.6,269.0" fill="#f3e3c3"/>
+  <polygon points="1021.0,265.5 1042.8,265.5 1043.4,269.0 1021.0,269.0" fill="#b98a60"/>
+  <polygon points="1042.8,265.5 1064.6,265.5 1065.8,269.0 1043.4,269.0" fill="#f3e3c3"/>
+  <polygon points="1064.6,265.5 1086.4,265.5 1088.1,269.0 1065.8,269.0" fill="#b98a60"/>
+  <polygon points="1086.4,265.5 1108.2,265.5 1110.5,269.0 1088.1,269.0" fill="#f3e3c3"/>
+  <polygon points="931.5,269.0 953.9,269.0 952.2,272.5 929.2,272.5" fill="#f3e3c3"/>
+  <polygon points="953.9,269.0 976.2,269.0 975.1,272.5 952.2,272.5" fill="#b98a60"/>
+  <polygon points="976.2,269.0 998.6,269.0 998.1,272.5 975.1,272.5" fill="#f3e3c3"/>
+  <polygon points="998.6,269.0 1021.0,269.0 1021.0,272.5 998.1,272.5" fill="#b98a60"/>
+  <polygon points="1021.0,269.0 1043.4,269.0 1043.9,272.5 1021.0,272.5" fill="#f3e3c3"/>
+  <polygon points="1043.4,269.0 1065.8,269.0 1066.9,272.5 1043.9,272.5" fill="#b98a60"/>
+  <polygon points="1065.8,269.0 1088.1,269.0 1089.8,272.5 1066.9,272.5" fill="#f3e3c3"/>
+  <polygon points="1088.1,269.0 1110.5,269.0 1112.8,272.5 1089.8,272.5" fill="#b98a60"/>
+  <polygon points="929.2,272.5 952.2,272.5 950.5,276.0 927.0,276.0" fill="#b98a60"/>
+  <polygon points="952.2,272.5 975.1,272.5 974.0,276.0 950.5,276.0" fill="#f3e3c3"/>
+  <polygon points="975.1,272.5 998.1,272.5 997.5,276.0 974.0,276.0" fill="#b98a60"/>
+  <polygon points="998.1,272.5 1021.0,272.5 1021.0,276.0 997.5,276.0" fill="#f3e3c3"/>
+  <polygon points="1021.0,272.5 1043.9,272.5 1044.5,276.0 1021.0,276.0" fill="#b98a60"/>
+  <polygon points="1043.9,272.5 1066.9,272.5 1068.0,276.0 1044.5,276.0" fill="#f3e3c3"/>
+  <polygon points="1066.9,272.5 1089.8,272.5 1091.5,276.0 1068.0,276.0" fill="#b98a60"/>
+  <polygon points="1089.8,272.5 1112.8,272.5 1115.0,276.0 1091.5,276.0" fill="#f3e3c3"/>
+  <polygon points="927.0,276.0 950.5,276.0 948.8,279.5 924.8,279.5" fill="#f3e3c3"/>
+  <polygon points="950.5,276.0 974.0,276.0 972.9,279.5 948.8,279.5" fill="#b98a60"/>
+  <polygon points="974.0,276.0 997.5,276.0 996.9,279.5 972.9,279.5" fill="#f3e3c3"/>
+  <polygon points="997.5,276.0 1021.0,276.0 1021.0,279.5 996.9,279.5" fill="#b98a60"/>
+  <polygon points="1021.0,276.0 1044.5,276.0 1045.1,279.5 1021.0,279.5" fill="#f3e3c3"/>
+  <polygon points="1044.5,276.0 1068.0,276.0 1069.1,279.5 1045.1,279.5" fill="#b98a60"/>
+  <polygon points="1068.0,276.0 1091.5,276.0 1093.2,279.5 1069.1,279.5" fill="#f3e3c3"/>
+  <polygon points="1091.5,276.0 1115.0,276.0 1117.2,279.5 1093.2,279.5" fill="#b98a60"/>
+  <polygon points="924.8,279.5 948.8,279.5 947.1,283.0 922.5,283.0" fill="#b98a60"/>
+  <polygon points="948.8,279.5 972.9,279.5 971.8,283.0 947.1,283.0" fill="#f3e3c3"/>
+  <polygon points="972.9,279.5 996.9,279.5 996.4,283.0 971.8,283.0" fill="#b98a60"/>
+  <polygon points="996.9,279.5 1021.0,279.5 1021.0,283.0 996.4,283.0" fill="#f3e3c3"/>
+  <polygon points="1021.0,279.5 1045.1,279.5 1045.6,283.0 1021.0,283.0" fill="#b98a60"/>
+  <polygon points="1045.1,279.5 1069.1,279.5 1070.2,283.0 1045.6,283.0" fill="#f3e3c3"/>
+  <polygon points="1069.1,279.5 1093.2,279.5 1094.9,283.0 1070.2,283.0" fill="#b98a60"/>
+  <polygon points="1093.2,279.5 1117.2,279.5 1119.5,283.0 1094.9,283.0" fill="#f3e3c3"/>
+  <polygon points="922.5,283.0 947.1,283.0 945.4,286.5 920.2,286.5" fill="#f3e3c3"/>
+  <polygon points="947.1,283.0 971.8,283.0 970.6,286.5 945.4,286.5" fill="#b98a60"/>
+  <polygon points="971.8,283.0 996.4,283.0 995.8,286.5 970.6,286.5" fill="#f3e3c3"/>
+  <polygon points="996.4,283.0 1021.0,283.0 1021.0,286.5 995.8,286.5" fill="#b98a60"/>
+  <polygon points="1021.0,283.0 1045.6,283.0 1046.2,286.5 1021.0,286.5" fill="#f3e3c3"/>
+  <polygon points="1045.6,283.0 1070.2,283.0 1071.4,286.5 1046.2,286.5" fill="#b98a60"/>
+  <polygon points="1070.2,283.0 1094.9,283.0 1096.6,286.5 1071.4,286.5" fill="#f3e3c3"/>
+  <polygon points="1094.9,283.0 1119.5,283.0 1121.8,286.5 1096.6,286.5" fill="#b98a60"/>
+  <polygon points="920.2,286.5 945.4,286.5 943.8,290.0 918.0,290.0" fill="#b98a60"/>
+  <polygon points="945.4,286.5 970.6,286.5 969.5,290.0 943.8,290.0" fill="#f3e3c3"/>
+  <polygon points="970.6,286.5 995.8,286.5 995.2,290.0 969.5,290.0" fill="#b98a60"/>
+  <polygon points="995.8,286.5 1021.0,286.5 1021.0,290.0 995.2,290.0" fill="#f3e3c3"/>
+  <polygon points="1021.0,286.5 1046.2,286.5 1046.8,290.0 1021.0,290.0" fill="#b98a60"/>
+  <polygon points="1046.2,286.5 1071.4,286.5 1072.5,290.0 1046.8,290.0" fill="#f3e3c3"/>
+  <polygon points="1071.4,286.5 1096.6,286.5 1098.2,290.0 1072.5,290.0" fill="#b98a60"/>
+  <polygon points="1096.6,286.5 1121.8,286.5 1124.0,290.0 1098.2,290.0" fill="#f3e3c3"/>
+  <polygon points="918,290 1124,290 1124,296 918,296" fill="#8a6243"/>
+  <g class="paw"><ellipse cx="1034" cy="262" rx="10" ry="7" fill="#e8a35c"/><path d="M1028 262 v3 M1034 263 v3 M1040 262 v3" stroke="#c47a37" stroke-width="1.5" stroke-linecap="round"/></g>
+  <g font-family="'DejaVu Sans', 'Segoe UI Symbol', 'Apple Symbols', 'Noto Sans Symbols 2', sans-serif">
+    <text x="1078" y="284" font-size="24" fill="#1d1d1d" stroke="#1d1d1d" stroke-width=".4" text-anchor="middle">♛</text>
+    <text x="1040" y="288" font-size="20" fill="#ffffff" stroke="#1d1d1d" stroke-width=".6" text-anchor="middle">♙</text>
+    <text x="966" y="288" font-size="22" fill="#ffffff" stroke="#1d1d1d" stroke-width=".6" text-anchor="middle">♔</text>
+    <text class="knight" x="1008" y="286" font-size="24" fill="#1d1d1d" stroke="#1d1d1d" stroke-width=".4" text-anchor="middle">♞</text>
+  </g>
+  <text class="oops" x="986" y="238" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#e07a5f">!</text>
 </g>
-<rect x="1" y="1" width="1198" height="338" rx="22" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
-
-<text x="64" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#59636e">&gt; hello, world — i'm<tspan class="caret" fill="#db2777"> ▍</tspan></text>
-<text x="60" y="176" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#g)">Abhishek</text>
-<text x="64" y="222" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#1f2328">I design &amp; build websites that feel <tspan font-style="italic" fill="#db2777">crafted</tspan>, not templated.</text>
-<text x="64" y="270" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#59636e">CSE student  ·  India  ·  web dev + AIML</text>
-
-<g class="float">
-  <rect x="738" y="58" width="404" height="230" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
-  <line x1="738" y1="92" x2="1142" y2="92" stroke="#d0d7de" stroke-width="1.5"/>
-  <circle cx="760" cy="75" r="5.5" fill="#db2777"/><circle cx="779" cy="75" r="5.5" fill="#d97706"/><circle cx="798" cy="75" r="5.5" fill="#7c3aed"/>
-  <rect x="822" y="68" width="200" height="14" rx="7" fill="#f6f8fa" stroke="#d0d7de"/>
-  <rect class="grow" x="762" y="112" width="250" height="18" rx="9" fill="url(#g)"/>
-  <rect class="grow d1" x="762" y="140" width="190" height="9" rx="4.5" fill="#d0d7de"/>
-  <rect class="grow d2" x="762" y="157" width="150" height="9" rx="4.5" fill="#d0d7de"/>
-  <rect x="762" y="186" width="114" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-  <rect x="884" y="186" width="114" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-  <rect x="1006" y="186" width="114" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-  <circle cx="790" cy="214" r="13" fill="#7c3aed" opacity=".85"/>
-  <circle cx="912" cy="214" r="13" fill="#db2777" opacity=".85"/>
-  <circle cx="1034" cy="214" r="13" fill="#d97706" opacity=".85"/>
-  <rect class="grow d3" x="776" y="240" width="84" height="7" rx="3.5" fill="#d0d7de"/>
-  <rect class="grow d1" x="898" y="240" width="84" height="7" rx="3.5" fill="#d0d7de"/>
-  <rect class="grow d2" x="1020" y="240" width="84" height="7" rx="3.5" fill="#d0d7de"/>
-</g>
-<g class="cursor"><path d="M1060 150 l0 26 l7 -7 l5 11 l5 -2 l-5 -11 l10 0 z" fill="#1f2328" stroke="#f6f8fa" stroke-width="1.5" stroke-linejoin="round"/></g>
-<text class="float2" x="1112" y="48" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#d97706">♞</text>
 </svg>
