@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+<title id="t">Abhishek — creative web developer</title>
+<desc id="d">I design and build websites that feel crafted. CSE student in India, web development and AIML.</desc>
+<style>
+  .float{animation:float 6s ease-in-out infinite;transform-box:fill-box}
+  .float2{animation:float 7.5s ease-in-out -2s infinite;transform-box:fill-box}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  .drift{animation:drift 14s ease-in-out infinite;transform-box:fill-box}
+  @keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-30px,18px)}}
+  .grow{animation:grow 4s ease-in-out infinite;transform-origin:left;transform-box:fill-box}
+  .grow.d1{animation-delay:-1s}.grow.d2{animation-delay:-2s}.grow.d3{animation-delay:-3s}
+  @keyframes grow{0%,100%{transform:scaleX(.35)}50%{transform:scaleX(1)}}
+  .caret{animation:blink 1.1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .cursor{animation:cursor 8s ease-in-out infinite}
+  @keyframes cursor{0%,100%{transform:translate(0,0)}25%{transform:translate(-150px,-40px)}
+    50%{transform:translate(-60px,50px)}75%{transform:translate(70px,-10px)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#d8dee4"/></pattern>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#db2777"/><stop offset="1" stop-color="#d97706"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+  <clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="340" fill="#f6f8fa"/>
+  <rect width="1200" height="340" fill="url(#dots)"/>
+  <g filter="url(#blur)" opacity="0.16">
+    <circle class="drift" cx="980" cy="70" r="120" fill="#7c3aed"/>
+    <circle class="drift" style="animation-delay:-7s" cx="760" cy="300" r="110" fill="#db2777"/>
+    <circle class="drift" style="animation-delay:-3s" cx="1150" cy="300" r="90" fill="#d97706"/>
+  </g>
+</g>
+<rect x="1" y="1" width="1198" height="338" rx="22" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+
+<text x="64" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16" fill="#59636e">&gt; hello, world — i'm<tspan class="caret" fill="#db2777"> ▍</tspan></text>
+<text x="60" y="176" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#g)">Abhishek</text>
+<text x="64" y="222" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#1f2328">I design &amp; build websites that feel <tspan font-style="italic" fill="#db2777">crafted</tspan>, not templated.</text>
+<text x="64" y="270" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#59636e">CSE student  ·  India  ·  web dev + AIML</text>
+
+<g class="float">
+  <rect x="738" y="58" width="404" height="230" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="738" y1="92" x2="1142" y2="92" stroke="#d0d7de" stroke-width="1.5"/>
+  <circle cx="760" cy="75" r="5.5" fill="#db2777"/><circle cx="779" cy="75" r="5.5" fill="#d97706"/><circle cx="798" cy="75" r="5.5" fill="#7c3aed"/>
+  <rect x="822" y="68" width="200" height="14" rx="7" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect class="grow" x="762" y="112" width="250" height="18" rx="9" fill="url(#g)"/>
+  <rect class="grow d1" x="762" y="140" width="190" height="9" rx="4.5" fill="#d0d7de"/>
+  <rect class="grow d2" x="762" y="157" width="150" height="9" rx="4.5" fill="#d0d7de"/>
+  <rect x="762" y="186" width="114" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="884" y="186" width="114" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <rect x="1006" y="186" width="114" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <circle cx="790" cy="214" r="13" fill="#7c3aed" opacity=".85"/>
+  <circle cx="912" cy="214" r="13" fill="#db2777" opacity=".85"/>
+  <circle cx="1034" cy="214" r="13" fill="#d97706" opacity=".85"/>
+  <rect class="grow d3" x="776" y="240" width="84" height="7" rx="3.5" fill="#d0d7de"/>
+  <rect class="grow d1" x="898" y="240" width="84" height="7" rx="3.5" fill="#d0d7de"/>
+  <rect class="grow d2" x="1020" y="240" width="84" height="7" rx="3.5" fill="#d0d7de"/>
+</g>
+<g class="cursor"><path d="M1060 150 l0 26 l7 -7 l5 11 l5 -2 l-5 -11 l10 0 z" fill="#1f2328" stroke="#f6f8fa" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text class="float2" x="1112" y="48" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#d97706">♞</text>
+</svg>
