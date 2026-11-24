@@ -94,9 +94,8 @@ I'm a CSE student from India who cares about **how software looks and feels**, n
 
 ### ✨ Off the keyboard
 
-| | |
-|---|---|
 | 🐱 | Certified cat person |
+|---|---|
 | ☕🍩 | Powered by caffeine and sweets |
 | ♟️ | Chess player, which is why [BoardScan](https://github.com/abhishek-k-33/boardscan) exists |
 | 🎨 | Graphic design. The banner and covers on this page are hand-made SVGs |
