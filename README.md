@@ -36,7 +36,7 @@ I'm a CSE student from India who cares about **how software looks and feels**, n
       <b><a href="https://abhishek-k-33.github.io/Visual_Regression_Testing/">Live demo ↗</a></b> · <a href="https://github.com/abhishek-k-33/Visual_Regression_Testing">Code</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/abhishek-k-33/OsdagBridge"><img src="assets/osdagbridge.svg" alt="OsdagBridge cover: a three-span bridge under load with its deflected shape"></a>
+      <a href="https://github.com/abhishek-k-33/OsdagBridge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/osdagbridge-dark.svg"><img src="assets/osdagbridge-light.svg" alt="OsdagBridge cover: a three-span bridge under load with its deflected shape"></picture></a>
       <h4>OsdagBridge</h4>
       <p>A unified bridge analysis &amp; design module for Osdag: IRC design codes, OpenSees solvers, CAD generation and LaTeX reports, all from one Python core that runs as desktop, web or CLI.</p>
       <img src="https://img.shields.io/badge/Python-222?style=flat-square&logo=python" alt="Python">
@@ -48,7 +48,7 @@ I'm a CSE student from India who cares about **how software looks and feels**, n
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/abhishek-k-33/boardscan"><img src="assets/boardscan.svg" alt="BoardScan cover: a photographed chessboard rectified into a flat board and FEN string"></a>
+      <a href="https://github.com/abhishek-k-33/boardscan"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/boardscan-dark.svg"><img src="assets/boardscan-light.svg" alt="BoardScan cover: a photographed chessboard rectified into a flat board and FEN string"></picture></a>
       <h4>BoardScan ♟️</h4>
       <p>Snap a photo of a real chessboard from any angle and get back the position as FEN, plus an engine evaluation. Classical CV for board detection, a small CNN for the pieces.</p>
       <img src="https://img.shields.io/badge/Python-222?style=flat-square&logo=python" alt="Python">
