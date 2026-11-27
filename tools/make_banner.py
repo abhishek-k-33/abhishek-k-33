@@ -15,23 +15,27 @@ MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monos
 SYMBOL = "'DejaVu Sans', 'Segoe UI Symbol', 'Apple Symbols', 'Noto Sans Symbols 2', sans-serif"
 
 THEMES = {
+    # Dusty purple + charcoal. Key names describe the role, not the colour:
+    # "terracotta" = main accent, "sage" = second accent, "mustard" = warm highlight.
     "light": dict(
-        bg="#fbf6ee", ink="#2f3142", muted="#6b6f80", line="#e6dccb",
-        terracotta="#e07a5f", sage="#5f9a7e", mustard="#e0a93b",
-        desk="#e8d5b7", desk_edge="#d6bd96",
-        lid="#3d405b", screen="#262838", code="#f4efe6", code_muted="#8a8ea3",
-        mug="#81b29a", cat="#e8a35c", cat_dark="#c47a37", belly="#f8dcb8", cat_eye="#2f3142",
-        sq_light="#f3e3c3", sq_dark="#b98a60", board_edge="#8a6243",
-        sky="#cfe6ea", frame="#d6bd96", night=False,
+        bg="#f5f2f7", ink="#2b2a30", muted="#6e6a78", line="#e2dce8",
+        terracotta="#8a6a9c", sage="#8f80ad", mustard="#c9a062",
+        desk="#d9d0de", desk_edge="#c3b7cb",
+        lid="#36343b", screen="#232227", code="#f2eff5", code_muted="#8d8896",
+        mug="#9a7fae", cat="#a59cb0", cat_dark="#857b92", belly="#efeaf2", cat_eye="#2b2a30",
+        nose="#d29aae",
+        sq_light="#e9e2ee", sq_dark="#8d7b9c", board_edge="#5e4f6b",
+        sky="#dcd6ec", frame="#c3b7cb", night=False,
     ),
     "dark": dict(
-        bg="#1c2030", ink="#f4efe6", muted="#a3a8b8", line="#2e3347",
-        terracotta="#ee8b70", sage="#86c0a4", mustard="#f2c66d",
-        desk="#2c3042", desk_edge="#3a3f55",
-        lid="#4a4e6a", screen="#131622", code="#f4efe6", code_muted="#7d8299",
-        mug="#86c0a4", cat="#eaa968", cat_dark="#c4823f", belly="#f6dcbc", cat_eye="#1c2030",
-        sq_light="#e9d8b8", sq_dark="#a97e57", board_edge="#6f4f36",
-        sky="#262c45", frame="#3a3f55", night=True,
+        bg="#222125", ink="#efeaf2", muted="#a59fae", line="#34323a",
+        terracotta="#b597c6", sage="#a99ccc", mustard="#e0bd7e",
+        desk="#2e2c33", desk_edge="#3b3842",
+        lid="#45424c", screen="#161519", code="#efeaf2", code_muted="#837d8c",
+        mug="#a58bb8", cat="#a8a0b3", cat_dark="#817891", belly="#ece6f0", cat_eye="#222125",
+        nose="#dba7b9",
+        sq_light="#ddd4e2", sq_dark="#84729a", board_edge="#4e4259",
+        sky="#2d2a3d", frame="#3b3842", night=True,
     ),
 }
 
@@ -156,13 +160,13 @@ def cat(t):
         # head
         f'<path d="M1036 146 L1030 110 L1056 132 Z" fill="{c["cat"]}"/>',
         f'<path d="M1084 146 L1090 110 L1064 132 Z" fill="{c["cat"]}"/>',
-        f'<path d="M1037 140 L1034 120 L1049 133 Z" fill="{c["terracotta"]}" opacity=".7"/>',
-        f'<path d="M1083 140 L1086 120 L1071 133 Z" fill="{c["terracotta"]}" opacity=".7"/>',
+        f'<path d="M1037 140 L1034 120 L1049 133 Z" fill="{c["nose"]}" opacity=".7"/>',
+        f'<path d="M1083 140 L1086 120 L1071 133 Z" fill="{c["nose"]}" opacity=".7"/>',
         f'<circle cx="1060" cy="160" r="31" fill="{c["cat"]}"/>',
         f'<path d="M1052 133 v9 M1060 131 v10 M1068 133 v9" stroke="{c["cat_dark"]}" stroke-width="3.5" stroke-linecap="round"/>',
         f'<ellipse class="blink" cx="1049" cy="160" rx="4" ry="5.5" fill="{c["cat_eye"]}"/>',
         f'<ellipse class="blink" cx="1071" cy="160" rx="4" ry="5.5" fill="{c["cat_eye"]}"/>',
-        f'<path d="M1056 170 h8 l-4 5 z" fill="{c["terracotta"]}"/>',
+        f'<path d="M1056 170 h8 l-4 5 z" fill="{c["nose"]}"/>',
         f'<path d="M1060 175 q-4 5 -9 3 M1060 175 q4 5 9 3" fill="none" stroke="{c["cat_eye"]}" stroke-width="1.6" stroke-linecap="round"/>',
         f'<path d="M1040 170 h-20 M1040 175 l-18 4 M1080 170 h20 M1080 175 l18 4" stroke="{c["cat_eye"]}" stroke-width="1.3" stroke-linecap="round" opacity=".6"/>',
     ])

@@ -6,9 +6,9 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abhishek-kushwah-538174325/"><img src="https://img.shields.io/badge/connect-LinkedIn-0A66C2?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYTIuMDYyIDIuMDYyIDAgMDEtMi4wNjMtMi4wNjUgMi4wNjQgMi4wNjQgMCAxMTIuMDYzIDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4=" alt="Connect on LinkedIn"></a>
-  <a href="https://github.com/abhishek-k-33?tab=repositories"><img src="https://img.shields.io/badge/explore-my_repos-7c3aed?style=flat-square&logo=github" alt="Explore my repos"></a>
-  <a href="https://abhishek-k-33.github.io/Visual_Regression_Testing/"><img src="https://img.shields.io/badge/live-Visual_CI_demo-db2777?style=flat-square&logo=githubpages&logoColor=white" alt="Visual CI live demo"></a>
-  <a href="https://blogsite-mini25.vercel.app"><img src="https://img.shields.io/badge/read-miniblogs-d97706?style=flat-square&logo=vercel&logoColor=white" alt="miniblogs"></a>
+  <a href="https://github.com/abhishek-k-33?tab=repositories"><img src="https://img.shields.io/badge/explore-my_repos-8a6a9c?style=flat-square&logo=github" alt="Explore my repos"></a>
+  <a href="https://abhishek-k-33.github.io/Visual_Regression_Testing/"><img src="https://img.shields.io/badge/live-Visual_CI_demo-36343b?style=flat-square&logo=githubpages&logoColor=white" alt="Visual CI live demo"></a>
+  <a href="https://blogsite-mini25.vercel.app"><img src="https://img.shields.io/badge/read-miniblogs-a58bb8?style=flat-square&logo=vercel&logoColor=white" alt="miniblogs"></a>
 </p>
 
 ### 👋 About me

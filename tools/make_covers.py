@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from make_banner import MONO, OUT, SANS, SYMBOL, THEMES  # noqa: E402
 
-GRID = {"light": "#efe6d6", "dark": "#252a3c"}
+GRID = {"light": "#ebe5ef", "dark": "#2b2930"}
 
 STYLE = """
   .draw{stroke-dasharray:700;animation:draw 6s ease-in-out infinite}
